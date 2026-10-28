@@ -1,0 +1,31 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button, input {
+  font: inherit;
+}
+
+button:focus-visible {
+  outline: 3px solid #9c91ff;
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #dcd5ff;
+  color: #292052;
+}
